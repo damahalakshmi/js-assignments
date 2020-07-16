@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+ <head> 
+ <title>console methods</title>
+ </head>
+ <body>
+   <script>
+//console methods:
+//console.log() method
+console.log('abc');  
+console.log(1); 
+// console.error() method  
+
+console.error('This is a simple error'); 
+// console.warn() method  
+
+console.warn('This is a warning.');  
+
+// console.clear() method  
+console.clear(); 
+// console.time() and console.timeEnd() method  
+
+console.time('abc'); 
+
+ let fun =  function(){ 
+
+     console.log('fun is running'); 
+
+ } 
+
+ let fun2 = function(){ 
+
+     console.log('fun2 is running..'); 
+
+ } 
+
+ fun(); // calling fun(); 
+
+ fun2(); // calling fun2(); 
+
+console.timeEnd('abc');
+</script>
+</body>
+</html>
+/* diff between var let and const
+
+ var declarations are globally scoped or function scoped while let and const are block scoped. var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared.*/
+// data types in JavaScript
+String	- represents sequence of characters e.g. "hello"
+Number -	represents numeric values e.g. 100
+Boolean	- represents boolean value either false or true
+Undefined	- represents undefined value
+Null -	represents null i.e. no value at all
